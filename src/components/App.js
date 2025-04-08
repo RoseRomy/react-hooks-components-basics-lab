@@ -15,5 +15,13 @@ function Home() {
     </div>
   );
 }
-
+function App() {
+  return (
+    <div>
+      <NavBar />
+      <Home />
+      <div>Hello World</div>
+    </div>
+  );
+}
 export default App;
